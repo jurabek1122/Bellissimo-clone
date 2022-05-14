@@ -1,38 +1,243 @@
-.App {
-  text-align: center;
+.Navbar {
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 20px;
+  padding: 15px 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loc {
+  background-color: rgb(0, 171, 73);
+  color: white !important;
+  border-radius: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav {
+  color: rgb(190, 45, 43) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav:hover {
+  color: rgb(173, 167, 167) !important;
+}
+.uz {
+  color: black !important;
+}
+.ru {
+  color: black !important;
+}
+.uzru {
+  margin-left: auto;
   display: flex;
-  flex-direction: column;
+}
+.header {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  height: 85px;
+  margin-right: 40px;
+}
+.number {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin: 0 10px;
+}
+.number1 {
+  position: relative;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(190, 45, 43);
+  color: #fff;
+  display: flex;
+  width: 70px;
+  height: 55px;
+  border-radius: 30px;
+  padding: 12px 10px 25px 15px;
+  margin-left: 25px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+.dnone {
+  text-decoration: none;
+}
+.nav-number1 {
+  background-color: #fff;
+  color: rgb(190, 45, 43);
+  text-decoration: none;
+}
+.number1 img {
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.number1 p {
+  margin-left: 5px;
+  margin-bottom: 20px !important;
+}
+.text {
+  width: 250px;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.text1 {
+  width: 150px !important;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+.img {
+  width: 30px;
+  height: 30px;
+}
+.nav2 {
+  color: #fff !important;
+  background-color: rgb(190, 45, 43);
+  font-weight: 500;
+  padding: 20px 25px !important;
+  transition: 0.5s ease all !important;
+}
+.nav2:hover {
+  color: rgb(190, 45, 43) !important;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.navlink {
+  background-color: rgb(190, 45, 43);
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: 1s ease;
+}
+.navlink-fixed {
+  background-color: rgb(190, 45, 43);
+  padding: 0 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999999;
+  transition: 1s ease;
+}
+.navlinks {
+  justify-content: space-between !important;
+}
+.none {
+  display: none;
+  transition: 1s ease;
+}
+.nav-img {
+  text-decoration: none;
+}
+.nav-img img {
+  width: 50px;
+  height: 50px;
+}
+.carusel {
+  background-color: rgb(247, 247, 247);
+  padding-top: 50px;
+}
+.pizza {
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+  justify-content: center !important;
+}
+.pizzas {
+  text-align: left;
+  margin: 15px 0;
+}
+.pizzas .Card {
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+}
+.Card:hover {
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+.pizzadesc {
+  color: rgb(128, 128, 128);
+  height: 80px;
+}
+.btn1 {
+  background-color: rgb(37, 192, 37) !important;
+  background-image: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.314) 1.5%, transparent 1%), radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.314) 1.5%, transparent 1%), radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.314) 1%, transparent 1%), radial-gradient(circle at 70% 85%, rgba(255, 255, 255, 0.314) 1%, transparent 1%);
+  border-radius: 55px !important;
+}
+.btn1 img {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.none {
+  display: none;
+}
+.shop-list {
+  display: flex;
+  background-color: white;
+}
+.shop-img {
+  width: 150px;
+  height: 150px;
+}
+.shop-nomi {
+  margin-top: 35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.soni {
+  display: flex;
+  margin-top: 35px;
+  margin-left: auto !important;
+}
+.soni button {
+  height: 30px;
+  width: 50px;
+  margin: 0 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(69, 223, 69);
+}
+.shop {
+  background-color: rgb(247, 247, 247);
+}
+.promo {
+  background-color: white;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 20px;
+  display: flex;
+}
+.promo-input {
+  width: 125px !important;
+  margin-right: 15px !important;
+  background-color: rgb(247, 247, 247);
+}
+.buy {
+  background-color: white;
+  min-height: 2   80px;
+  margin: 15px 0 15px 0 !important;
+  border-radius: 20px;
+  min-height: 400px;
+}
+.buy-btn {
+  border-radius: 40px !important;
+}
+.total {
+  background-color: white;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 20px;
+}
+.bold {
+  font-weight: bold;
+}
+.fixed {
+  position: fixed !important;
+}
+.sticky {
+  font-size: 15px;
+  color: #000000;
+  border: 1px solid black;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  transition: all 0.4s ease;
 }

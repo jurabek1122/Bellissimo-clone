@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Product from './components/Product';
+// import Corusel from './components/Corusel';
+import ShoppingCard from './components/ShoppingCard';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function App () {
+
+  const [cart, setCart] = useState([]);
+  
+  const addCart = (item) => {
+    const productList = [...cart];
+    if(!productList.includes(item)){
+      productList.push(item);
+      const index = productList.indexOf(item);
+      productList[index].quantity++;
+    }
+    setCart(productList)
+    localStorage.setItem("cart", JSON.stringify(productList));
+  }
+  
+    return (
+        <Router>
+        <Navbar cart={cart} />
+        <Routes>
+          <Route path="/" element={<Product addCart={addCart} />} />
+          <Route path="/card" element={<ShoppingCard cart={cart} setCart={setCart} />} />
+        </Routes>
+      </Router>
+    );
+};
 
 export default App;

@@ -1,0 +1,23 @@
+[
+    {
+        "id": "30",
+        "title": "Sinnamon Rollar 8 ta",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F3a9e1b1a-9327-4c6c-959f-a2981565baaa.jpg&w=384&q=75",
+        "price": 10000,
+        "quantity": 0
+    },
+    {
+        "id": "31",
+        "title": "Sinnamon Rollar 16 ta",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F3a9e1b1a-9327-4c6c-959f-a2981565baaa.jpg&w=384&q=75",
+        "price": 20000,
+        "quantity": 0
+    },
+    {
+        "id": "32",
+        "title": "Shokoladli Fondan",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb643ceb5-6a4e-4101-a3dc-91c5327c588a.jpg&w=384&q=75",
+        "price": 10000,
+        "quantity": 0
+    }
+]

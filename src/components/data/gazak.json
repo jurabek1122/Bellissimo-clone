@@ -1,0 +1,50 @@
+[
+    {
+        "id": "10",
+        "title": "Kartoshka fri",
+        "desc": "Pechdan yangi uzilgan qarsildoq kartoshka fr",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F02b6e2a7-787c-46cb-b5b3-2dfafb6d23e2.jpg&w=384&q=75",
+        "price": 12000,
+        "quantity": 0
+    },
+    {
+        "id": "11",
+        "title": "'Po-derevenski' kartoshkasi",
+        "desc": "Pechdan yangi uzilgan qarsildoq 'po-derevenski' kartoshkasi",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F6a0457e3-5606-4bf1-a8ed-ade0a5dc3485.jpg&w=384&q=75",
+        "price": 14000,
+        "quantity": 0
+    },
+    {
+        "id": "12",
+        "title": "Pepperoni rollar 8 dona",
+        "desc": "Qarsildoq xamir, mayin Ranch sousi, pepperoni va juda koʻp pishloq",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F5aabe16c-ace1-40af-9225-8342ce4533ab.jpg&w=384&q=75",
+        "price": 25000,
+        "quantity": 0
+    },
+    {
+        "id": "13",
+        "title": "Pepperoni rollar 4 dona",
+        "desc": "Qarsildoq xamir, mayin Ranch sousi, pepperoni va juda koʻp pishloq",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F5aabe16c-ace1-40af-9225-8342ce4533ab.jpg&w=384&q=75",
+        "price": 17000,
+        "quantity": 0
+    },
+    {
+        "id": "14",
+        "title": "Alfredo pasta",
+        "desc": "Spagetti — kurka goʻshti, mayin motsarella pishlogʻi va yangi shampinyonlar bilan uygʻunlikda",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Faa3dfa3c-badd-4d96-99a1-1c6e2f09b42d.jpg&w=384&q=75",
+        "price": 29000,
+        "quantity": 0
+    },
+    {
+        "id": "15",
+        "title": "Bredstik",
+        "desc": "Qizarib pishgan sarimsoqli bort va yengil xamir nihoyatda mayin pesto sousi bilan uygʻunlikda",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F4e81f2f1-f49f-4fce-bef0-a02f507effb1.jpg&w=384&q=75",
+        "price": 25000,
+        "quantity": 0
+    }
+]

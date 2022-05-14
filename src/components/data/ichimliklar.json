@@ -1,0 +1,86 @@
+[
+    {
+        "id": "16",
+        "title": "'Amerikano' qahvasi",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb8674ebc-27b8-43c0-9e24-afcdb66daea2.jpg&w=384&q=75",
+        "price": 10000,
+        "quantity": 0
+    },
+    {
+        "id": "17",
+        "title": "'Cappuccino' qahvasi",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F59cabb59-c25b-4082-a865-c5a9e90510bb.jpg&w=384&q=75",
+        "price": 13000,
+        "quantity": 0
+    },
+    {
+        "id": "18",
+        "title": "'Dable Amerikano' qahvasi",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb8674ebc-27b8-43c0-9e24-afcdb66daea2.jpg&w=384&q=75",
+        "price": 13000,
+        "quantity": 0
+    },
+    {
+        "id": "19",
+        "title": "Coca-Cola 0,5 l",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff956bfaa-a2db-401a-8e9b-2edb2cc6a099.jpg&w=384&q=75",
+        "price": 7000,
+        "quantity": 0
+    },
+    {
+        "id": "20",
+        "title": "Coca-Cola 1 l",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff956bfaa-a2db-401a-8e9b-2edb2cc6a099.jpg&w=384&q=75",
+        "price": 10000,
+        "quantity": 0
+    },
+    {
+        "id": "21",
+        "title": "Coca-Cola 1,5 l",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff956bfaa-a2db-401a-8e9b-2edb2cc6a099.jpg&w=384&q=75 ",
+        "price": 14000,
+        "quantity": 0
+    },
+    {
+        "id": "22",
+        "title": "Sprite 0,5 l",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F19bc3e6f-eba0-4904-8bc2-477c380b7d80.jpg&w=384&q=75",
+        "price": 7000,
+        "quantity": 0
+    },
+    {
+        "id": "23",
+        "title": "Sprite 1 l",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F19bc3e6f-eba0-4904-8bc2-477c380b7d80.jpg&w=384&q=75",
+        "price": 10000,
+        "quantity": 0
+    },
+    {
+        "id": "24",
+        "title": "Sprite 1,5 l",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F19bc3e6f-eba0-4904-8bc2-477c380b7d80.jpg&w=384&q=75 ",
+        "price": 14000,
+        "quantity": 0
+    },
+    {
+        "id": "25",
+        "title": "Shaftoli sharbati",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F00c12ff0-8e6e-41d4-8a41-bcbb861f6f04.jpg&w=384&q=75",
+        "price": 13000,
+        "quantity": 0
+    },
+    {
+        "id": "26",
+        "title": "Olma sharbati",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F33af0ba6-871e-48ef-813e-647802f1fc04.jpg&w=384&q=75",
+        "price": 13000,
+        "quantity": 0
+    },
+    {
+        "id": "27",
+        "title": "Olcha sharbati",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F2ca63ec8-d7de-4c6c-bf0b-956728f4598c.jpg&w=384&q=75",
+        "price": 15000,
+        "quantity": 0
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": "28",
+        "title": "'Grecheskiy' salat",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fc9683d57-8d30-44fa-ad1e-2e1b53091fb0.jpg&w=384&q=75",
+        "price": 19000,
+        "quantity": 0
+    },
+    {
+        "id": "29",
+        "title": "'Sezar' salat",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ffc1cd67e-1b88-4c03-86ed-11f43a784fbe.jpg&w=384&q=75",
+        "price": 19000,
+        "quantity": 0
+    }
+]

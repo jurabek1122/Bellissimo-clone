@@ -1,0 +1,23 @@
+[
+    {
+        "id": "33",
+        "title": "Heinz barbekyu",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F606e6d0c-7731-4047-a3bb-6c6098d4c922.jpg&w=384&q=75",
+        "price": 3000,
+        "quantity": 0
+    },
+    {
+        "id": "34",
+        "title": "Heinz sirli",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff414f62b-e3b0-4b3d-82ec-61c2c2f6a092.jpg&w=384&q=75",
+        "price": 3000,
+        "quantity": 0
+    },
+    {
+        "id": "35",
+        "title": "Firmenniy sous",
+        "url": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb33f0b64-fa93-4f15-8c94-21ceb4ce722b.jpg&w=384&q=75",
+        "price": 3000,
+        "quantity": 0
+    }
+]
