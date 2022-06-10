@@ -3,6 +3,9 @@
   margin-bottom: 20px;
   padding: 15px 0;
 }
+.d-f {
+  display: flex;
+}
 .loc {
   background-color: rgb(0, 171, 73);
   color: white !important;
@@ -181,13 +184,20 @@
 .shop-nomi {
   margin-top: 35px;
 }
-
+.shop-narxi {
+  margin-left: 15px;
+}
 .soni {
   display: flex;
   margin-top: 35px;
   margin-left: auto !important;
 }
-.soni button {
+.soni1 {
+  display: flex;
+  margin-top: 5px;
+  margin-left: auto !important;
+}
+.soni button, .soni1 button {
   height: 30px;
   width: 50px;
   margin: 0 15px;
@@ -226,6 +236,9 @@
   margin: 15px 0;
   border-radius: 20px;
 }
+#sous {
+  padding-bottom: 90px;
+}
 .bold {
   font-weight: bold;
 }
@@ -240,4 +253,210 @@
   height: 50px;
   width: 100%;
   transition: all 0.4s ease;
+}
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+.bottom-menu span a {
+  width: 10% !important;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.bottom-menu span a.nav-link {
+  padding: 0;
+  margin: 0 9px;
+  text-decoration: none;
+}
+.bottom-menu span a img {
+  width: 45px;
+}
+.bottom-link {
+  width: 200% !important;
+}
+.navigation {
+  position: fixed !important;
+  top: 0;
+  z-index: 100000;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  color: black;
+}
+.logo-mobile {
+  margin-left: 1rem;
+  width: 60%;
+  height: 8%;
+}
+.navigation-menu {
+  margin-left: auto;
+}
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+  background-color: white;
+}
+.hamburger img {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+@media screen and (max-width: 500px) {
+  .hamburger {
+    display: block;
+  }
+  .navigation-menu ul {
+    display: none;
+  }
+  .navigation-menu ul {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    flex-direction: column;
+    width: 80%;
+    height: calc(100vh - 77px);
+    background-color: white;
+  }
+  .navigation-menu li {
+    text-align: left;
+    margin: 0 0 0 20px;
+  }
+  .navigation-menu li a {
+    color: black;
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 30px;
+  }
+  .navigation-menu li a svg {
+    margin-right: 15px;
+  }
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+    z-index: 100000;
+  }
+}
+.sale {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.nav-btn {
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+.download {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.download a img {
+  width: 140px;
+  height: 50px;
+  margin-right: 10px;
+}
+.nav-number {
+  position: relative;
+  display: flex;
+  color: black;
+  padding: 10px 15px 0 0;
+  margin-right: 80px;
+}
+.nav-number svg {
+  width: 30px;
+  height: 30px;
+}
+.nav-number p {
+  position: absolute;
+  color: white;
+  background-color: #25C025;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  right: 0;
+  top: 0;
+}
+.bottom-cart {
+  position: fixed;
+  bottom: -100px;
+  right: 20px;
+  display: flex;
+  color: black;
+  padding: 10px 15px 0 0;
+  margin-bottom: 200px;
+  transition: 0.5s ease all;
+}
+.bottom-cart svg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+.bottom-cart p {
+  position: absolute;
+  color: white;
+  background-color: #25C025;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  right: 10px;
+  top: 0;
+}
+.none {
+  display: none;
+}
+.top-cart {
+  width: 100%;
+  display: flex;
+}
+.top-cart svg {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  color: black;
+}
+.top-cart h1 {
+  margin: 20px;
+  font-size: 30px;
 }

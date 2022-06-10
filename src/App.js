@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
 import Product from './components/Product';
-import Corusel from './components/Corusel';
 import ShoppingCard from './components/ShoppingCard';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -23,10 +21,8 @@ function App () {
   
     return (
         <Router>
-        <Navbar cart={cart} />
         <Routes>
-          <Route path="/" element={<Product addCart={addCart} />} />
-          <Route path="/" element={<Corusel />} />
+          <Route path="/" element={<Product addCart={addCart} cart={cart}/>} />
           <Route path="/card" element={<ShoppingCard cart={cart} setCart={setCart} />} />
         </Routes>
       </Router>
